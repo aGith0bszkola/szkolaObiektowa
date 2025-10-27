@@ -1,4 +1,4 @@
-public class uczen extends osoba{
+public class uczen extends osoba implements Dyzurny{
     //uczen jest klasą potomną klasy bvazopaqwej osoba
     //dziedziczenie
     private int  nrUcznia;
@@ -40,5 +40,10 @@ public class uczen extends osoba{
                 ", imie " + imie +
                 " ,wiek" + getWiek();
 
+    }
+
+    @Override
+    public void wykonajDyzur() {
+        System.out.println("umycie tablicy");
     }
 }
