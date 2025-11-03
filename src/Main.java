@@ -17,6 +17,7 @@ public class Main {
         Nauczyciel nauczycielMatematyki = new Nauczyciel("magiera",72,"matematyka");
         System.out.println(nauczycielMatematyki);
         nauczycielMatematyki.wykonajDyzur();
+        System.out.println("oriba");
         uczen2.wykonajDyzur();//polimorfizm
     }
 }
